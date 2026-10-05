@@ -1,0 +1,20 @@
+{
+  "name": "tsgo-api-server-ts2345-repro",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "probe": "node probe.mjs",
+    "batch": "node batch.mjs"
+  },
+  "dependencies": {
+    "@sigma/utils": "3.0.0",
+    "graphology": "^0.26.0",
+    "graphology-types": "^0.24.8",
+    "sigma": "3.0.3"
+  },
+  "devDependencies": {
+    "@typescript/native": "npm:typescript@7.0.2",
+    "typescript6": "npm:typescript@^6.0.3"
+  }
+}
